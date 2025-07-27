@@ -1,4 +1,4 @@
-from ArquivoTratado.censusDF import dataCensusDF, X_dataCensusDF_normalizado
+from ArquivoTratado.censusDF import dataCensusDF, X_dataCensusDF_normalizado, X_dataCensusDF_treino
 import  pandas as pd
 # Configurações para exibição completa:
 
@@ -13,7 +13,6 @@ pd.set_option('display.max_columns', None)
 
 # Mostrar o conteúdo completo de cada célula, sem cortar texto com "..."
 pd.set_option('display.max_colwidth', None)
-
 
 print('BASE DE DADOS CENSUS\n\n'
       'TABELA:\n'
