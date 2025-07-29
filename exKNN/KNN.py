@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 listaImpares = []
 
-for numeros in range(2, 99 + 1):
+for numeros in range(2, 59 + 1):
     indicador = []
     if numeros % 2 != 0:
         knn_censusDF = KNeighborsClassifier(
